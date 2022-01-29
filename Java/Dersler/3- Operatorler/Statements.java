@@ -51,5 +51,44 @@ public class Statements {
         0 || 0 = 0
          */
 
+
+        //if statements
+
+        x=5;
+        y=5;
+
+        if(x<y){
+            System.out.println("y is bigger");
+        }
+        else if(y<x){
+            System.out.println("x is bigger");
+        }
+        else {
+            System.out.println("x=y");
+        }
+
+        //switch case statements
+
+        int day=1;
+        String dayString="";
+
+        switch (day){
+            case 1:
+                dayString="Monday";
+                break;
+            case 2:
+                dayString="Tuesday";
+                break;
+            case 3:
+                dayString="Wednesday";
+                break;
+            default:
+                dayString="Sunday";
+                break;
+                
+        }
+
+
+
     }
 }
