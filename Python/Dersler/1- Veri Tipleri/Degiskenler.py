@@ -12,6 +12,10 @@ print(type(sayı1)) #veri tipini söyleyen kod
 mesaj="Nabüün lan gevşek."
 
 """
+String fonksiyonlari
+"""
+
+"""
 print(mesaj[2:5])
 
 yenimesaj=mesaj[10:14]
@@ -51,7 +55,9 @@ print(ben.split())
 a="kanal istanbull".strip("k")
 print(a)
 
-#input
+"""
+input
+"""
 
 ad=input("Adınız ?\n")
 
